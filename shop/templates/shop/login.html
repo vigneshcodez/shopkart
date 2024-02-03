@@ -1,0 +1,25 @@
+<h2>LOGIN</h2>
+{% include 'shop/inc/messages.html' %}
+<section class="py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <form action="" method="post">
+          {% csrf_token %}
+
+          <div class="mb-4 abcd">
+            <label for="" class="form-label">Enter Username</label>
+            <input type="text" name="username" class="form-control" id="">
+          </div>
+
+          <div class="mb-4">
+            <label for="" class="form-label">Enter password</label>
+            <input type="password" name="password" class="form-control" id="">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+.carousel-item img {
+  object-fit: cover;
+  object-position: top;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.old_price {
+  font-weight: bold;
+  color: olive;
+}
+
+.new_price {
+  font-weight: bold;
+  background-color: pink;
+  color: white;
+}
+
+.abcd input {
+  border: 2px solid pink;
+  color: red;
+}
